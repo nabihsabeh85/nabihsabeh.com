@@ -13,30 +13,29 @@
 </head>
 <body>
 
-  <!-- Navigation -->
   <nav id="navbar">
     <div class="nav-container">
-      <a href="#hero" class="nav-logo">NS</a>
+      <a href="index.html" class="nav-logo">NS</a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#building">Building</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#featured">Work</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#articles">Articles</a></li>
-        <li><a href="#insights">Insights</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <li><a href="assets/Nabih_Sabeh_Resume.pdf" class="nav-cta" download>Resume <i class="fas fa-download"></i></a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section id="hero">
     <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
     <div class="hero-content">
       <div class="hero-text">
         <p class="hero-greeting">Hello, I'm</p>
@@ -48,25 +47,13 @@
         </div>
         <p class="hero-summary">Building enterprise AI agents, LLM-powered platforms, and data-driven products that transform how organizations operate at scale.</p>
         <div class="hero-highlights">
-          <div class="hero-highlight">
-            <i class="fas fa-building"></i>
-            <span>Digital Realty</span>
-          </div>
-          <div class="hero-highlight">
-            <i class="fas fa-graduation-cap"></i>
-            <span>Columbia AI/ML</span>
-          </div>
-          <div class="hero-highlight">
-            <i class="fas fa-clock"></i>
-            <span>15+ Years</span>
-          </div>
-          <div class="hero-highlight">
-            <i class="fas fa-users"></i>
-            <span>4,000+ Users</span>
-          </div>
+          <div class="hero-highlight"><i class="fas fa-building"></i><span>Digital Realty</span></div>
+          <div class="hero-highlight"><i class="fas fa-graduation-cap"></i><span>Columbia AI/ML</span></div>
+          <div class="hero-highlight"><i class="fas fa-clock"></i><span>15+ Years</span></div>
+          <div class="hero-highlight"><i class="fas fa-users"></i><span>4,000+ Users</span></div>
         </div>
         <div class="hero-cta">
-          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
           <a href="assets/Nabih_Sabeh_Resume.pdf" class="btn btn-outline" download>Download Resume</a>
         </div>
         <div class="hero-socials">
@@ -76,484 +63,190 @@
         </div>
       </div>
       <div class="hero-image-wrapper">
+        <div class="hero-image-glow"></div>
+        <div class="hero-image-ring"></div>
         <img src="assets/profile.png" alt="Nabih Sabeh" class="hero-image">
       </div>
     </div>
-    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
-      <i class="fas fa-chevron-down"></i>
+    <a href="#impact" class="scroll-indicator" aria-label="Scroll down">
+      <span class="scroll-indicator-text">Scroll</span>
+      <div class="scroll-indicator-line"></div>
     </a>
   </section>
 
-  <!-- Scrolling Marquee -->
+  <!-- Marquee -->
   <div class="marquee-section">
     <div class="marquee-track">
       <div class="marquee-content">
-        <span>AI Agents</span><span class="marquee-dot"></span>
-        <span>RAG Architecture</span><span class="marquee-dot"></span>
-        <span>Azure AI Search</span><span class="marquee-dot"></span>
-        <span>LLM Systems</span><span class="marquee-dot"></span>
-        <span>Data Center Infrastructure</span><span class="marquee-dot"></span>
-        <span>Interconnection</span><span class="marquee-dot"></span>
-        <span>Product Strategy</span><span class="marquee-dot"></span>
-        <span>Hybrid Search</span><span class="marquee-dot"></span>
-        <span>ETL Pipelines</span><span class="marquee-dot"></span>
-        <span>Workflow Automation</span><span class="marquee-dot"></span>
-        <span>Enterprise SaaS</span><span class="marquee-dot"></span>
-        <span>Data Governance</span><span class="marquee-dot"></span>
-        <span>Embedding Strategy</span><span class="marquee-dot"></span>
-        <span>Agile Delivery</span><span class="marquee-dot"></span>
-        <span>Cloud Connectivity</span><span class="marquee-dot"></span>
+        <span>AI Agents</span><span class="marquee-dot"></span><span>RAG Architecture</span><span class="marquee-dot"></span><span>Azure AI Search</span><span class="marquee-dot"></span><span>LLM Systems</span><span class="marquee-dot"></span><span>Data Center Infrastructure</span><span class="marquee-dot"></span><span>Interconnection</span><span class="marquee-dot"></span><span>Product Strategy</span><span class="marquee-dot"></span><span>Hybrid Search</span><span class="marquee-dot"></span><span>ETL Pipelines</span><span class="marquee-dot"></span><span>Workflow Automation</span><span class="marquee-dot"></span><span>Enterprise SaaS</span><span class="marquee-dot"></span><span>Data Governance</span><span class="marquee-dot"></span><span>Embedding Strategy</span><span class="marquee-dot"></span><span>Agile Delivery</span><span class="marquee-dot"></span><span>Cloud Connectivity</span><span class="marquee-dot"></span>
       </div>
       <div class="marquee-content" aria-hidden="true">
-        <span>AI Agents</span><span class="marquee-dot"></span>
-        <span>RAG Architecture</span><span class="marquee-dot"></span>
-        <span>Azure AI Search</span><span class="marquee-dot"></span>
-        <span>LLM Systems</span><span class="marquee-dot"></span>
-        <span>Data Center Infrastructure</span><span class="marquee-dot"></span>
-        <span>Interconnection</span><span class="marquee-dot"></span>
-        <span>Product Strategy</span><span class="marquee-dot"></span>
-        <span>Hybrid Search</span><span class="marquee-dot"></span>
-        <span>ETL Pipelines</span><span class="marquee-dot"></span>
-        <span>Workflow Automation</span><span class="marquee-dot"></span>
-        <span>Enterprise SaaS</span><span class="marquee-dot"></span>
-        <span>Data Governance</span><span class="marquee-dot"></span>
-        <span>Embedding Strategy</span><span class="marquee-dot"></span>
-        <span>Agile Delivery</span><span class="marquee-dot"></span>
-        <span>Cloud Connectivity</span><span class="marquee-dot"></span>
+        <span>AI Agents</span><span class="marquee-dot"></span><span>RAG Architecture</span><span class="marquee-dot"></span><span>Azure AI Search</span><span class="marquee-dot"></span><span>LLM Systems</span><span class="marquee-dot"></span><span>Data Center Infrastructure</span><span class="marquee-dot"></span><span>Interconnection</span><span class="marquee-dot"></span><span>Product Strategy</span><span class="marquee-dot"></span><span>Hybrid Search</span><span class="marquee-dot"></span><span>ETL Pipelines</span><span class="marquee-dot"></span><span>Workflow Automation</span><span class="marquee-dot"></span><span>Enterprise SaaS</span><span class="marquee-dot"></span><span>Data Governance</span><span class="marquee-dot"></span><span>Embedding Strategy</span><span class="marquee-dot"></span><span>Agile Delivery</span><span class="marquee-dot"></span><span>Cloud Connectivity</span><span class="marquee-dot"></span>
       </div>
     </div>
     <div class="marquee-track marquee-reverse">
       <div class="marquee-content">
-        <span>Grounding Strategies</span><span class="marquee-dot"></span>
-        <span>Schema Design</span><span class="marquee-dot"></span>
-        <span>Data Modeling</span><span class="marquee-dot"></span>
-        <span>Python</span><span class="marquee-dot"></span>
-        <span>SQL</span><span class="marquee-dot"></span>
-        <span>Hyperscaler Ecosystems</span><span class="marquee-dot"></span>
-        <span>Output Validation</span><span class="marquee-dot"></span>
-        <span>Roadmap Strategy</span><span class="marquee-dot"></span>
-        <span>Release Management</span><span class="marquee-dot"></span>
-        <span>AI Observability</span><span class="marquee-dot"></span>
-        <span>Salesforce</span><span class="marquee-dot"></span>
-        <span>IoT Systems</span><span class="marquee-dot"></span>
-        <span>Risk Mitigation</span><span class="marquee-dot"></span>
-        <span>Product Analytics</span><span class="marquee-dot"></span>
-        <span>Data Migration</span><span class="marquee-dot"></span>
+        <span>Grounding Strategies</span><span class="marquee-dot"></span><span>Schema Design</span><span class="marquee-dot"></span><span>Data Modeling</span><span class="marquee-dot"></span><span>Python</span><span class="marquee-dot"></span><span>SQL</span><span class="marquee-dot"></span><span>Hyperscaler Ecosystems</span><span class="marquee-dot"></span><span>Output Validation</span><span class="marquee-dot"></span><span>Roadmap Strategy</span><span class="marquee-dot"></span><span>Release Management</span><span class="marquee-dot"></span><span>AI Observability</span><span class="marquee-dot"></span><span>Salesforce</span><span class="marquee-dot"></span><span>IoT Systems</span><span class="marquee-dot"></span><span>Risk Mitigation</span><span class="marquee-dot"></span><span>Product Analytics</span><span class="marquee-dot"></span><span>Data Migration</span><span class="marquee-dot"></span>
       </div>
       <div class="marquee-content" aria-hidden="true">
-        <span>Grounding Strategies</span><span class="marquee-dot"></span>
-        <span>Schema Design</span><span class="marquee-dot"></span>
-        <span>Data Modeling</span><span class="marquee-dot"></span>
-        <span>Python</span><span class="marquee-dot"></span>
-        <span>SQL</span><span class="marquee-dot"></span>
-        <span>Hyperscaler Ecosystems</span><span class="marquee-dot"></span>
-        <span>Output Validation</span><span class="marquee-dot"></span>
-        <span>Roadmap Strategy</span><span class="marquee-dot"></span>
-        <span>Release Management</span><span class="marquee-dot"></span>
-        <span>AI Observability</span><span class="marquee-dot"></span>
-        <span>Salesforce</span><span class="marquee-dot"></span>
-        <span>IoT Systems</span><span class="marquee-dot"></span>
-        <span>Risk Mitigation</span><span class="marquee-dot"></span>
-        <span>Product Analytics</span><span class="marquee-dot"></span>
-        <span>Data Migration</span><span class="marquee-dot"></span>
+        <span>Grounding Strategies</span><span class="marquee-dot"></span><span>Schema Design</span><span class="marquee-dot"></span><span>Data Modeling</span><span class="marquee-dot"></span><span>Python</span><span class="marquee-dot"></span><span>SQL</span><span class="marquee-dot"></span><span>Hyperscaler Ecosystems</span><span class="marquee-dot"></span><span>Output Validation</span><span class="marquee-dot"></span><span>Roadmap Strategy</span><span class="marquee-dot"></span><span>Release Management</span><span class="marquee-dot"></span><span>AI Observability</span><span class="marquee-dot"></span><span>Salesforce</span><span class="marquee-dot"></span><span>IoT Systems</span><span class="marquee-dot"></span><span>Risk Mitigation</span><span class="marquee-dot"></span><span>Product Analytics</span><span class="marquee-dot"></span><span>Data Migration</span><span class="marquee-dot"></span>
       </div>
     </div>
   </div>
 
-  <!-- About Section -->
-  <section id="about" class="section">
+  <!-- Impact Stats Strip -->
+  <section id="impact" class="impact-strip">
+    <div class="impact-strip-bg"></div>
     <div class="container">
-      <h2 class="section-title reveal">About Me</h2>
-      <div class="about-grid reveal">
-        <div class="about-text">
-          <p>I'm an AI and Product leader with over 15 years of experience delivering enterprise platforms across data center infrastructure and interconnection ecosystems. Currently at <strong>Digital Realty</strong>, I lead the development of production-grade AI agents and LLM retrieval-based systems used by thousands of enterprise users.</p>
-          <p>My work sits at the intersection of <strong>artificial intelligence</strong>, <strong>data platform engineering</strong>, and <strong>product strategy</strong>. I combine deep technical fluency in RAG architectures, Azure AI Search, and workflow automation with a product leader's instinct for what drives real business impact.</p>
-          <p>From defining architecture patterns for hybrid search systems to guiding enterprise AI adoption across cross-functional teams, I thrive on turning complex infrastructure challenges into scalable, user-centric products.</p>
+      <div class="impact-grid">
+        <div class="impact-item reveal">
+          <span class="impact-number" data-count="15">0</span><span class="impact-suffix">+</span>
+          <span class="impact-label">Years of Experience</span>
+          <span class="impact-detail">Enterprise Product Leadership</span>
         </div>
-        <div class="about-stats">
-          <div class="stat-card reveal-delay-1">
-            <span class="stat-number" data-count="15">0</span><span class="stat-plus">+</span>
-            <span class="stat-label">Years of Experience</span>
-          </div>
-          <div class="stat-card reveal-delay-2">
-            <span class="stat-number" data-count="4000">0</span><span class="stat-plus">+</span>
-            <span class="stat-label">Enterprise Users Supported</span>
-          </div>
-          <div class="stat-card reveal-delay-3">
-            <span class="stat-number" data-count="50">0</span><span class="stat-plus">%</span>
-            <span class="stat-label">Cycle Time Reduction</span>
-          </div>
-          <div class="stat-card reveal-delay-4">
-            <span class="stat-number" data-count="35">0</span><span class="stat-plus">%</span>
-            <span class="stat-label">AI Error Reduction</span>
-          </div>
+        <div class="impact-divider"></div>
+        <div class="impact-item reveal">
+          <span class="impact-number" data-count="4000">0</span><span class="impact-suffix">+</span>
+          <span class="impact-label">Users Supported</span>
+          <span class="impact-detail">Production AI Platform</span>
+        </div>
+        <div class="impact-divider"></div>
+        <div class="impact-item reveal">
+          <span class="impact-number" data-count="50">0</span><span class="impact-suffix">%</span>
+          <span class="impact-label">Faster Cycles</span>
+          <span class="impact-detail">Proposal Time Reduction</span>
+        </div>
+        <div class="impact-divider"></div>
+        <div class="impact-item reveal">
+          <span class="impact-number" data-count="35">0</span><span class="impact-suffix">%</span>
+          <span class="impact-label">Error Reduction</span>
+          <span class="impact-detail">AI Output Accuracy</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- LinkedIn Articles -->
-  <section id="articles" class="section section-alt">
+  <!-- About -->
+  <section id="about" class="section">
     <div class="container">
-      <h2 class="section-title reveal">LinkedIn Articles</h2>
-      <p class="section-subtitle reveal">Original writing on AI, machine learning, and the future of enterprise technology.</p>
-      <div class="articles-grid">
-
-        <a href="https://www.linkedin.com/posts/nabih-sabeh_ai-chatbots-aiagents-activity-7324807387704418304-_RdM" target="_blank" rel="noopener" class="article-card reveal">
-          <div class="article-icon"><i class="fab fa-linkedin-in"></i></div>
-          <div class="article-body">
-            <div class="article-tag">AI Agents</div>
-            <h3>Chatbots vs AI Agents: Understanding the Difference in Simple Terms</h3>
-            <p>People still use "chatbot" and "AI agent" interchangeably — but they're fundamentally different. Clear definitions, real-world examples, and why it matters to stop calling agents "just chatbots."</p>
-            <span class="article-read">Read on LinkedIn <i class="fas fa-arrow-right"></i></span>
-          </div>
-        </a>
-
-        <a href="https://www.linkedin.com/posts/nabih-sabeh_ai-innovation-futureofwork-activity-7204152120143458305-u5Pz" target="_blank" rel="noopener" class="article-card reveal">
-          <div class="article-icon"><i class="fab fa-linkedin-in"></i></div>
-          <div class="article-body">
-            <div class="article-tag">AI Strategy</div>
-            <h3>Unlocking the True Potential of AI: Moving Beyond Chat Interfaces</h3>
-            <p>The next wave of AI isn't about better chatbots — it's about autonomous agents that reason, retrieve, and act within real operational workflows. The shift from conversational AI to agentic systems is where enterprise value lives.</p>
-            <span class="article-read">Read on LinkedIn <i class="fas fa-arrow-right"></i></span>
-          </div>
-        </a>
-
-        <a href="https://www.linkedin.com/posts/nabih-sabeh_techtalk-machinelearning-futureisnow-activity-7171271437750620162-PAg6" target="_blank" rel="noopener" class="article-card reveal">
-          <div class="article-icon"><i class="fab fa-linkedin-in"></i></div>
-          <div class="article-body">
-            <div class="article-tag">Machine Learning</div>
-            <h3>Machine Learning (ML): What It Is, Why It Matters, and How It Works</h3>
-            <p>A clear, accessible breakdown — from supervised and unsupervised learning to reinforcement learning. How algorithms learn from data without explicit programming, and why it matters for product leaders.</p>
-            <span class="article-read">Read on LinkedIn <i class="fas fa-arrow-right"></i></span>
-          </div>
-        </a>
-
-        <a href="https://www.linkedin.com/posts/nabih-sabeh_in-my-last-article-i-discussed-the-importance-activity-7170813043059200000-send" target="_blank" rel="noopener" class="article-card reveal">
-          <div class="article-icon"><i class="fab fa-linkedin-in"></i></div>
-          <div class="article-body">
-            <div class="article-tag">Prompt Engineering</div>
-            <h3>The Art of Prompting: 6 Key Elements for Better AI Outputs</h3>
-            <p>How you prompt an AI determines the quality of the output. Six key elements — task description, role play, boundaries, context, requirements, and reasoning — that dramatically improve LLM interactions.</p>
-            <span class="article-read">Read on LinkedIn <i class="fas fa-arrow-right"></i></span>
-          </div>
-        </a>
-
-        <a href="https://www.linkedin.com/posts/nabih-sabeh_aivsautomation-techtalk-activity-7170494806081671168-dzj8" target="_blank" rel="noopener" class="article-card reveal">
-          <div class="article-icon"><i class="fab fa-linkedin-in"></i></div>
-          <div class="article-body">
-            <div class="article-tag">AI vs Automation</div>
-            <h3>Beyond Buzzwords: A Closer Look at AI and Automation</h3>
-            <p>With AI ads everywhere, it's hard to tell what's real AI, what's automation, and what's just buzz. A clear-eyed look at the difference and why it matters for enterprise technology decisions.</p>
-            <span class="article-read">Read on LinkedIn <i class="fas fa-arrow-right"></i></span>
-          </div>
-        </a>
-
-        <a href="https://www.linkedin.com/posts/nabih-sabeh_ai-artificialintelligence-innovation-activity-7170070961474510848-5f0E" target="_blank" rel="noopener" class="article-card reveal">
-          <div class="article-icon"><i class="fab fa-linkedin-in"></i></div>
-          <div class="article-body">
-            <div class="article-tag">AI Adoption</div>
-            <h3>Navigating the AI Landscape: Beyond Mediocre Responses</h3>
-            <p>A crucial but often overlooked factor is holding us back from leveraging the full power of AI tools — and it's not the AI that needs to change. How rethinking your approach transforms outcomes.</p>
-            <span class="article-read">Read on LinkedIn <i class="fas fa-arrow-right"></i></span>
-          </div>
-        </a>
-
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="section-glow-line reveal"></div>
+      <div class="about-content reveal">
+        <p>I'm an AI and Product leader with over 15 years of experience delivering enterprise platforms across data center infrastructure and interconnection ecosystems. Currently at <strong>Digital Realty</strong>, I lead the development of production-grade AI agents and LLM retrieval-based systems used by thousands of enterprise users.</p>
+        <p>My work sits at the intersection of <strong>artificial intelligence</strong>, <strong>data platform engineering</strong>, and <strong>product strategy</strong>. I combine deep technical fluency in RAG architectures, Azure AI Search, and workflow automation with a product leader's instinct for what drives real business impact.</p>
+        <div class="about-cta">
+          <a href="experience.html" class="btn btn-outline btn-sm">Full Experience <i class="fas fa-arrow-right"></i></a>
+        </div>
       </div>
-      <div class="articles-cta reveal">
-        <a href="https://www.linkedin.com/in/nabih-sabeh/recent-activity/articles/" target="_blank" rel="noopener" class="btn btn-outline">
-          <i class="fab fa-linkedin-in"></i> View All on LinkedIn
+    </div>
+  </section>
+
+  <!-- Articles Banner -->
+  <section class="section section-alt articles-banner-section">
+    <div class="container">
+      <div class="banner-header reveal">
+        <div>
+          <h2 class="section-title" style="text-align:left">Latest Articles</h2>
+          <p class="banner-subtitle">Original writing on AI, machine learning, and enterprise technology.</p>
+        </div>
+        <a href="articles.html" class="btn btn-outline btn-sm">View All <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="articles-banner reveal">
+      <div class="articles-banner-track">
+        <a href="https://www.linkedin.com/posts/nabih-sabeh_ai-chatbots-aiagents-activity-7324807387704418304-_RdM" target="_blank" rel="noopener" class="banner-card glow-border">
+          <div class="banner-card-inner">
+            <div class="banner-card-tag">AI Agents</div>
+            <h3>Chatbots vs AI Agents: Understanding the Difference in Simple Terms</h3>
+            <p>Clear definitions, real-world examples, and why it matters to stop calling agents "just chatbots."</p>
+            <span class="banner-card-link"><i class="fab fa-linkedin-in"></i> Read Article</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/posts/nabih-sabeh_ai-innovation-futureofwork-activity-7204152120143458305-u5Pz" target="_blank" rel="noopener" class="banner-card glow-border">
+          <div class="banner-card-inner">
+            <div class="banner-card-tag">AI Strategy</div>
+            <h3>Unlocking the True Potential of AI: Moving Beyond Chat Interfaces</h3>
+            <p>The shift from conversational AI to agentic systems is where enterprise value lives.</p>
+            <span class="banner-card-link"><i class="fab fa-linkedin-in"></i> Read Article</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/posts/nabih-sabeh_techtalk-machinelearning-futureisnow-activity-7171271437750620162-PAg6" target="_blank" rel="noopener" class="banner-card glow-border">
+          <div class="banner-card-inner">
+            <div class="banner-card-tag">Machine Learning</div>
+            <h3>Machine Learning (ML): What It Is, Why It Matters, and How It Works</h3>
+            <p>From supervised learning to reinforcement learning — how algorithms learn from data.</p>
+            <span class="banner-card-link"><i class="fab fa-linkedin-in"></i> Read Article</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/posts/nabih-sabeh_in-my-last-article-i-discussed-the-importance-activity-7170813043059200000-send" target="_blank" rel="noopener" class="banner-card glow-border">
+          <div class="banner-card-inner">
+            <div class="banner-card-tag">Prompt Engineering</div>
+            <h3>The Art of Prompting: 6 Key Elements for Better AI Outputs</h3>
+            <p>Six elements that dramatically improve how you interact with LLMs.</p>
+            <span class="banner-card-link"><i class="fab fa-linkedin-in"></i> Read Article</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/posts/nabih-sabeh_aivsautomation-techtalk-activity-7170494806081671168-dzj8" target="_blank" rel="noopener" class="banner-card glow-border">
+          <div class="banner-card-inner">
+            <div class="banner-card-tag">AI vs Automation</div>
+            <h3>Beyond Buzzwords: A Closer Look at AI and Automation</h3>
+            <p>What's real AI, what's automation, and what's just buzz.</p>
+            <span class="banner-card-link"><i class="fab fa-linkedin-in"></i> Read Article</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/posts/nabih-sabeh_ai-artificialintelligence-innovation-activity-7170070961474510848-5f0E" target="_blank" rel="noopener" class="banner-card glow-border">
+          <div class="banner-card-inner">
+            <div class="banner-card-tag">AI Adoption</div>
+            <h3>Navigating the AI Landscape: Beyond Mediocre Responses</h3>
+            <p>It's not the AI that needs to change — it's how we use it.</p>
+            <span class="banner-card-link"><i class="fab fa-linkedin-in"></i> Read Article</span>
+          </div>
         </a>
       </div>
     </div>
   </section>
 
   <!-- What I'm Building -->
-  <section id="building" class="section section-alt">
+  <section class="section">
     <div class="container">
-      <h2 class="section-title reveal">What I'm Building</h2>
-      <p class="section-subtitle reveal">Leading enterprise AI initiatives at Digital Realty — turning complex data ecosystems into production-grade systems that ship.</p>
-      <div class="building-grid">
+      <div class="banner-header reveal">
+        <div>
+          <h2 class="section-title" style="text-align:left">What I'm Building</h2>
+          <p class="banner-subtitle">Leading enterprise AI initiatives at Digital Realty.</p>
+        </div>
+        <a href="work.html" class="btn btn-outline btn-sm">See All Work <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="building-grid" style="margin-top:24px">
         <div class="building-card building-card-featured reveal">
           <div class="building-card-glow"></div>
           <div class="building-icon"><i class="fas fa-brain"></i></div>
           <div class="building-label">Current Focus</div>
           <h3>Enterprise AI Agents</h3>
           <p>Building production-grade AI agents on LLM and RAG architectures embedded within connectivity and operational workflows — supporting 4,000+ enterprise users across Digital Realty's global platform.</p>
-          <div class="building-tags">
-            <span>LLM</span><span>RAG</span><span>Azure AI Search</span><span>Production AI</span>
-          </div>
+          <div class="building-tags"><span>LLM</span><span>RAG</span><span>Azure AI Search</span><span>Production AI</span></div>
         </div>
         <div class="building-card reveal">
           <div class="building-icon"><i class="fas fa-search"></i></div>
           <div class="building-label">Architecture</div>
           <h3>Hybrid Retrieval Systems</h3>
-          <p>Defining architecture patterns for Azure AI Search-based retrieval with vector + keyword hybrid search and grounding strategies that reduce AI output errors by 35%.</p>
-          <div class="building-tags">
-            <span>Vector Search</span><span>Grounding</span><span>Embeddings</span>
-          </div>
-        </div>
-        <div class="building-card reveal">
-          <div class="building-icon"><i class="fas fa-cogs"></i></div>
-          <div class="building-label">Automation</div>
-          <h3>Intelligent Workflow Pipelines</h3>
-          <p>Designing automated ETL and data indexing workflows that power AI-driven reporting and insights, maintaining 99% continuity during platform transitions.</p>
-          <div class="building-tags">
-            <span>ETL/ELT</span><span>n8n</span><span>Data Pipelines</span>
-          </div>
+          <p>Defining architecture patterns for Azure AI Search-based retrieval with vector + keyword hybrid search, reducing AI output errors by 35%.</p>
+          <div class="building-tags"><span>Vector Search</span><span>Grounding</span><span>Embeddings</span></div>
         </div>
         <div class="building-card reveal">
           <div class="building-icon"><i class="fas fa-chart-line"></i></div>
           <div class="building-label">Impact</div>
           <h3>AI Adoption at Scale</h3>
-          <p>Working across business leaders, infrastructure teams, and governance groups to align AI initiatives with high-impact use cases — accelerating enterprise adoption by 40%.</p>
-          <div class="building-tags">
-            <span>GTM</span><span>Governance</span><span>Enterprise Scale</span>
-          </div>
+          <p>Aligning AI initiatives with high-impact use cases across business leaders, infrastructure teams, and governance groups — accelerating adoption by 40%.</p>
+          <div class="building-tags"><span>GTM</span><span>Governance</span><span>Enterprise Scale</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Experience Section -->
-  <section id="experience" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title reveal">Experience</h2>
-      <div class="timeline">
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>Principal Product Manager — AI & Data Platforms</h3>
-                <p class="timeline-company">Digital Realty</p>
-              </div>
-              <span class="timeline-date">2023 — Present</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Led development and production launch of enterprise AI agents built on LLM and RAG architectures, supporting 4,000+ users and reducing proposal cycle time by 50%.</li>
-              <li>Defined architecture patterns for Azure AI Search-based retrieval systems with hybrid (vector + keyword) search, improving response accuracy and reducing AI output errors by 35%.</li>
-              <li>Assessed data models, schema design, and ETL pipelines supporting AI indexing, reducing downstream reporting defects by 40%.</li>
-              <li>Accelerated enterprise AI adoption by 40% by aligning AI initiatives with high-impact operational use cases across business leaders, infrastructure teams, and governance groups.</li>
-              <li>Maintained 99% continuity of critical reporting and AI-driven insights during platform transitions leveraging deep interconnection and hyperscaler ecosystem expertise.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>Senior Product Manager — Interconnection (ServiceFabric GTM)</h3>
-                <p class="timeline-company">Digital Realty</p>
-              </div>
-              <span class="timeline-date">2021 — 2023</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Increased sales efficiency by 20% by leading the go-to-market strategy for ServiceFabric interconnection.</li>
-              <li>Collaborated with Solution Engineers, Solution Architects, and operations to enhance visibility into customer deployments for faster proposals.</li>
-              <li>Drove enhancements to connectivity tooling and reporting that improved provisioning transparency and customer onboarding.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>Product Manager</h3>
-                <p class="timeline-company">Ricoh USA</p>
-              </div>
-              <span class="timeline-date">2019 — 2021</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Led development and launch of digital platforms including an e-commerce marketplace and consolidated SaaS platform for SMB customers.</li>
-              <li>Reduced churn by 20% through quantitative and qualitative user research and targeted product improvements.</li>
-              <li>Expanded marketplace catalog by 15 new offerings, contributing to 50% revenue growth on the platform.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>Product Manager</h3>
-                <p class="timeline-company">iLuv Creative Technology</p>
-              </div>
-              <span class="timeline-date">2015 — 2019</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Managed product lifecycle for consumer technology and connected device platforms across cross-functional teams.</li>
-              <li>Increased revenue by 25% by leveraging customer insights and market trends to define product requirements and guide successful launches.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>Product Development</h3>
-                <p class="timeline-company">Casio Computer Co.</p>
-              </div>
-              <span class="timeline-date">2012 — 2015</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Expanded the music product portfolio by 20% by developing region-specific instruments for new markets.</li>
-              <li>Coordinated between engineering, design, and manufacturing teams to deliver market-aligned products.</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="section">
-    <div class="container">
-      <h2 class="section-title reveal">Skills & Expertise</h2>
-      <div class="skills-grid">
-
-        <div class="skill-card reveal">
-          <div class="skill-icon"><i class="fas fa-robot"></i></div>
-          <h3>AI & LLM Systems</h3>
-          <div class="skill-tags">
-            <span>LLM & RAG Systems</span>
-            <span>AI Agents</span>
-            <span>Azure AI Search</span>
-            <span>Embedding Strategy</span>
-            <span>AI Observability</span>
-            <span>Grounding & Output Validation</span>
-            <span>n8n Workflow Automation</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <div class="skill-icon"><i class="fas fa-database"></i></div>
-          <h3>Data Platforms & Engineering</h3>
-          <div class="skill-tags">
-            <span>Schema Design</span>
-            <span>Data Modeling</span>
-            <span>ETL/ELT Pipelines</span>
-            <span>SQL</span>
-            <span>Python</span>
-            <span>Data Migration Strategy</span>
-            <span>Data Quality & Governance</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <div class="skill-icon"><i class="fas fa-rocket"></i></div>
-          <h3>Product Leadership</h3>
-          <div class="skill-tags">
-            <span>Agile Delivery</span>
-            <span>Backlog Prioritization</span>
-            <span>Roadmap & Portfolio Strategy</span>
-            <span>Release Management</span>
-            <span>Risk Mitigation</span>
-            <span>Product Analytics</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal">
-          <div class="skill-icon"><i class="fas fa-server"></i></div>
-          <h3>Domain & Industry</h3>
-          <div class="skill-tags">
-            <span>Data Center Infrastructure</span>
-            <span>Interconnection & Cloud Connectivity</span>
-            <span>Hyperscaler & NSP Ecosystems</span>
-            <span>Enterprise SaaS</span>
-            <span>IoT Systems</span>
-            <span>Salesforce</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Featured Work -->
-  <section id="featured" class="section">
-    <div class="container">
-      <h2 class="section-title reveal">Featured Work</h2>
-      <p class="section-subtitle reveal">Key projects and initiatives that define my approach to building at the intersection of AI and enterprise infrastructure.</p>
-      <div class="featured-grid">
-        <div class="featured-card reveal">
-          <div class="featured-number">01</div>
-          <h3>AI-Powered Sales Compass</h3>
-          <p>Designed and launched an intelligent assistant that surfaces real-time interconnection insights, customer deployment data, and actionable recommendations — reducing proposal cycle time by 50% across the enterprise sales organization.</p>
-          <div class="featured-meta">
-            <span><i class="fas fa-users"></i> 4,000+ users</span>
-            <span><i class="fas fa-bolt"></i> 50% faster cycles</span>
-          </div>
-        </div>
-        <div class="featured-card reveal">
-          <div class="featured-number">02</div>
-          <h3>RAG-Based Knowledge Platform</h3>
-          <p>Architected a retrieval-augmented generation system using Azure AI Search with hybrid vector + keyword retrieval, custom embedding strategies, and grounding validation — improving response accuracy by 35% in production.</p>
-          <div class="featured-meta">
-            <span><i class="fas fa-check-circle"></i> 35% error reduction</span>
-            <span><i class="fas fa-layer-group"></i> Hybrid search</span>
-          </div>
-        </div>
-        <div class="featured-card reveal">
-          <div class="featured-number">03</div>
-          <h3>ServiceFabric Interconnection GTM</h3>
-          <p>Led the go-to-market product strategy for Digital Realty's ServiceFabric interconnection platform — building sales tooling, connectivity dashboards, and provisioning workflows that increased sales efficiency by 20%.</p>
-          <div class="featured-meta">
-            <span><i class="fas fa-network-wired"></i> Interconnection</span>
-            <span><i class="fas fa-chart-bar"></i> 20% sales lift</span>
-          </div>
-        </div>
-        <div class="featured-card reveal">
-          <div class="featured-number">04</div>
-          <h3>E-Commerce Platform & Marketplace</h3>
-          <p>Built and launched Ricoh's consolidated digital marketplace for SMB customers — integrating user research, A/B experimentation, and iterative product development that drove 50% revenue growth and reduced churn by 20%.</p>
-          <div class="featured-meta">
-            <span><i class="fas fa-shopping-cart"></i> 15 new offerings</span>
-            <span><i class="fas fa-arrow-up"></i> 50% revenue growth</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education Section -->
-  <section id="education" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title reveal">Education & Certifications</h2>
-      <div class="edu-grid">
-        <div class="edu-card reveal">
-          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
-          <h3>AI & Machine Learning</h3>
-          <p class="edu-detail">18-Month Professional Program</p>
-          <p class="edu-school">Columbia University</p>
-        </div>
-        <div class="edu-card reveal">
-          <div class="edu-icon"><i class="fas fa-university"></i></div>
-          <h3>Communication Arts</h3>
-          <p class="edu-detail">Undergraduate Degree</p>
-          <p class="edu-school">Lebanese American University</p>
-        </div>
-      </div>
-      <div class="certs-grid">
-        <div class="cert-badge reveal"><i class="fas fa-certificate"></i> Certified Scrum Master (CSM)</div>
-        <div class="cert-badge reveal"><i class="fas fa-certificate"></i> Certified Product Owner (CSPO)</div>
-        <div class="cert-badge reveal"><i class="fas fa-certificate"></i> Certified Data Center Design Professional (CDCDP)</div>
-        <div class="cert-badge reveal"><i class="fas fa-certificate"></i> Pragmatic Marketing Certification</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Quote Callout -->
+  <!-- Quote -->
   <section class="quote-section">
+    <div class="quote-bg-line quote-bg-line-1"></div>
+    <div class="quote-bg-line quote-bg-line-2"></div>
     <div class="container">
       <blockquote class="pull-quote reveal">
         <span class="quote-mark">"</span>
@@ -563,124 +256,40 @@
     </div>
   </section>
 
-  <!-- Insights Section -->
-  <section id="insights" class="section">
+  <!-- Explore Pages -->
+  <section class="section section-alt">
     <div class="container">
-      <h2 class="section-title reveal">Insights & Perspectives</h2>
-      <p class="section-subtitle reveal">Thoughts on the intersection of AI, data infrastructure, and product strategy.</p>
-      <div class="insights-grid">
-
-        <a href="https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier" target="_blank" rel="noopener" class="insight-card reveal">
-          <div class="insight-tag">AI Strategy</div>
-          <h3>The Economic Potential of Generative AI</h3>
-          <p>How generative AI is reshaping productivity across industries — and why product leaders need to rethink how they build and deliver enterprise platforms.</p>
-          <span class="insight-source">McKinsey Digital <i class="fas fa-external-link-alt"></i></span>
+      <h2 class="section-title reveal">Explore</h2>
+      <div class="section-glow-line reveal"></div>
+      <div class="explore-grid">
+        <a href="experience.html" class="explore-card reveal">
+          <div class="explore-icon-wrap"><i class="fas fa-briefcase"></i></div>
+          <h3>Experience</h3>
+          <p>15+ years across Digital Realty, Ricoh, iLuv, and Casio. Full career timeline, education, and certifications.</p>
+          <span class="explore-link">View Experience <i class="fas fa-arrow-right"></i></span>
         </a>
-
-        <a href="https://www.digitalrealty.com/resources/articles/what-is-data-center-interconnection" target="_blank" rel="noopener" class="insight-card reveal">
-          <div class="insight-tag">Data Centers</div>
-          <h3>What Is Data Center Interconnection?</h3>
-          <p>A deep dive into the interconnection fabric that powers cloud, enterprise, and hybrid workloads — the backbone of modern digital infrastructure.</p>
-          <span class="insight-source">Digital Realty <i class="fas fa-external-link-alt"></i></span>
+        <a href="work.html" class="explore-card reveal">
+          <div class="explore-icon-wrap"><i class="fas fa-rocket"></i></div>
+          <h3>Featured Work</h3>
+          <p>Key projects including AI-powered Sales Compass, RAG knowledge platforms, and enterprise marketplace builds.</p>
+          <span class="explore-link">View Work <i class="fas fa-arrow-right"></i></span>
         </a>
-
-        <a href="https://hbr.org/2024/09/a-guide-to-building-an-ai-ready-product-strategy" target="_blank" rel="noopener" class="insight-card reveal">
-          <div class="insight-tag">Product Management</div>
-          <h3>Building an AI-Ready Product Strategy</h3>
-          <p>Why the most effective AI product strategies start with clear operational use cases, not technology hype — aligning stakeholders around measurable outcomes.</p>
-          <span class="insight-source">Harvard Business Review <i class="fas fa-external-link-alt"></i></span>
+        <a href="articles.html" class="explore-card reveal">
+          <div class="explore-icon-wrap"><i class="fas fa-pen-nib"></i></div>
+          <h3>Articles & Insights</h3>
+          <p>Original LinkedIn articles on AI agents, machine learning, prompt engineering, and curated industry reads.</p>
+          <span class="explore-link">View Articles <i class="fas fa-arrow-right"></i></span>
         </a>
-
-        <a href="https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview" target="_blank" rel="noopener" class="insight-card reveal">
-          <div class="insight-tag">RAG Architecture</div>
-          <h3>Retrieval-Augmented Generation on Azure</h3>
-          <p>How hybrid search and grounding strategies in Azure AI Search improve the accuracy and reliability of LLM-powered enterprise applications.</p>
-          <span class="insight-source">Microsoft Learn <i class="fas fa-external-link-alt"></i></span>
-        </a>
-
-        <a href="https://www.gartner.com/en/articles/what-s-new-in-artificial-intelligence-from-the-2023-gartner-hype-cycle" target="_blank" rel="noopener" class="insight-card reveal">
-          <div class="insight-tag">Industry Trends</div>
-          <h3>AI Hype Cycle: What Product Leaders Should Know</h3>
-          <p>Separating signal from noise in the AI landscape — where enterprise AI agents and retrieval systems sit on the maturity curve and what it means for adoption.</p>
-          <span class="insight-source">Gartner <i class="fas fa-external-link-alt"></i></span>
-        </a>
-
-        <a href="https://www.datacenterdynamics.com/en/marketwatch/global-data-center-trends-2024/" target="_blank" rel="noopener" class="insight-card reveal">
-          <div class="insight-tag">Data Center Trends</div>
-          <h3>Global Data Center Market Outlook</h3>
-          <p>AI workloads are reshaping data center capacity planning, power density, and interconnection demand — driving the next wave of infrastructure investment.</p>
-          <span class="insight-source">Data Center Dynamics <i class="fas fa-external-link-alt"></i></span>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Vision Section -->
-  <section id="vision" class="section">
-    <div class="container">
-      <div class="vision-block reveal">
-        <div class="vision-text">
-          <h2>The Future I'm Building Toward</h2>
-          <p>Enterprise AI is moving beyond chatbots and dashboards. The next wave is <strong>agentic systems</strong> — AI that reasons, retrieves, and acts within real operational workflows. SaaS interfaces will become headless. Retrieval will replace static search. And product leaders who understand both the infrastructure and the intelligence layer will shape what comes next.</p>
-          <p>I'm building at that intersection: connecting the physical infrastructure of data centers with the intelligence layer of LLMs, RAG, and workflow automation — to create platforms that don't just inform, but operate.</p>
-          <div class="vision-cta">
-            <a href="#contact" class="btn btn-primary">Let's Build Together</a>
-            <a href="https://www.linkedin.com/in/nabih-sabeh/" target="_blank" rel="noopener" class="btn btn-outline">Connect on LinkedIn</a>
-          </div>
-        </div>
-        <div class="vision-graphic">
-          <div class="vision-orbit">
-            <div class="vision-orbit-ring vision-orbit-ring-1"></div>
-            <div class="vision-orbit-ring vision-orbit-ring-2"></div>
-            <div class="vision-orbit-ring vision-orbit-ring-3"></div>
-            <div class="vision-center-icon"><i class="fas fa-microchip"></i></div>
-            <div class="vision-node vision-node-1"><i class="fas fa-robot"></i></div>
-            <div class="vision-node vision-node-2"><i class="fas fa-database"></i></div>
-            <div class="vision-node vision-node-3"><i class="fas fa-network-wired"></i></div>
-            <div class="vision-node vision-node-4"><i class="fas fa-cloud"></i></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title reveal">Let's Connect</h2>
-      <p class="section-subtitle reveal">Whether you're looking to discuss AI product strategy, data platform architecture, or potential collaboration — I'd love to hear from you.</p>
-      <div class="contact-grid reveal">
-        <a href="mailto:nabih@nabihsabeh.com" class="contact-card">
-          <i class="fas fa-envelope"></i>
-          <h3>Email</h3>
-          <p>nabih@nabihsabeh.com</p>
-        </a>
-        <a href="tel:+16468296076" class="contact-card">
-          <i class="fas fa-phone"></i>
-          <h3>Phone</h3>
-          <p>(646) 829-6076</p>
-        </a>
-        <a href="https://www.linkedin.com/in/nabih-sabeh/" target="_blank" rel="noopener" class="contact-card">
-          <i class="fab fa-linkedin-in"></i>
-          <h3>LinkedIn</h3>
-          <p>linkedin.com/in/nabih-sabeh</p>
-        </a>
-        <a href="https://github.com/nabihsabeh85" target="_blank" rel="noopener" class="contact-card">
-          <i class="fab fa-github"></i>
-          <h3>GitHub</h3>
-          <p>github.com/nabihsabeh85</p>
-        </a>
-      </div>
-      <div class="contact-resume reveal">
-        <a href="assets/Nabih_Sabeh_Resume.pdf" class="btn btn-primary btn-lg" download>
-          <i class="fas fa-file-pdf"></i> Download My Resume
+        <a href="contact.html" class="explore-card reveal">
+          <div class="explore-icon-wrap"><i class="fas fa-handshake"></i></div>
+          <h3>Let's Connect</h3>
+          <p>Discuss AI product strategy, data platform architecture, or explore potential collaboration opportunities.</p>
+          <span class="explore-link">Get in Touch <i class="fas fa-arrow-right"></i></span>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <div class="container">
       <div class="footer-content">
